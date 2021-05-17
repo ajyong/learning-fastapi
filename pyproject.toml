@@ -6,6 +6,8 @@ authors = ["Aaron Yong <hello@aarony.dev>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.65.1"
+uvicorn = {extras = ["standard"], version = "^0.13.4"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
